@@ -2,8 +2,8 @@
 export async function main(ns) {
 
     // Defines the "target server", which is the server
-    // that we're going to hack. In this case, it's "foodnstuff"
-    const target = "foodnstuff";
+    // that we're going to hack. In this case, it's "joesguns"
+    const target = "joesguns";
 
     // Get root access to target server
     ns.nuke(target);
